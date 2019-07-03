@@ -57,12 +57,12 @@ def login():
         result = query.first()
         if result:
 
-            account_sid = 'AC5f82639b428db231e14618421c366a74'
-            auth_token = '370e76927eb6fa6190dd93fca075642f'
+            account_sid ='<twilio account id>'
+            auth_token = '<twilio token>'
             client = Client(account_sid, auth_token)
             message_body = 'Your challenge is : ' + str(hashed_challenge)
-            from_number = '+12898063017'
-            to_number = '+19024102893'
+            from_number = ''
+            to_number = ''
             message = client.messages \
                 .create(
                 body=message_body,
