@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Login Page</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css" type="text/css">
+    </head>
+
+<body>
+<div class="header">
+    <div >
+
+    </div>
+</div>
+
+
+<form action="/login" method="post">
+<div class="login">
+<div class="login-screen">
+<div class="app-title">
+<h1 style="color: #ed7b7b">Login</h1>
+</div>
+<div class="login-form">
+<div class="control-group">
+				<input type="text" class="login-field" value="" placeholder="username" name="username">
+<label class="login-field-icon fui-user" for="login-name"></label></div>
+<div class="control-group">
+				<input type="password" class="login-field" value="" placeholder="password" name="password">
+<label class="login-field-icon fui-lock" for="login-pass"></label></div>
+<input type="submit" value="Log in" class="btn btn-primary btn-large btn-block">
+
+</div>
+</div>
+</div>
+    <div class="app-title"><b>{{ error }}</b></div>
+    </form>
+    <form action="/login1" method="post">
+    <div class="login">
+    <div class="response-screen" id="hideDiv" style="display: {{ tobeDisplayed }}">
+        <input type="text" class="login-field input1" value="" placeholder="Enter Response Key" name="text" style="float: left;width: 150px">
+        <div style="overflow: hidden; padding-right: .5em;"></div>
+        <input type="submit" value="Submit" class="btn btn-primary btn-large btn-block" style="margin-top: 0px;float: right;width: 100px">
+    </div></div>
+    <div class="footer"></div>
+
+
+</form>
+</body>
+</html>
