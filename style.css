@@ -1,0 +1,99 @@
+.login {
+margin: 20px auto;
+width: 300px;
+}
+.logo{
+    float: left;
+
+
+}
+.header{
+    background-color: #c96767;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+.footer{
+    background-color: #c96767;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+
+}
+
+body {
+font-family: Arial;
+background-color:#ea9a9a ;
+padding-top: 50px;
+    padding-left: 0;
+    margin-left: 0px;
+}
+.login-screen {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px;
+height: 350px;
+}
+.response-screen{
+    background-color: #FFF;
+padding: 20px;
+border-radius: 5px;
+height: 100px;
+
+    align-items: center;
+}
+.btn {
+border: 2px solid transparent;
+background: #ed7b7b;
+color: #ffffff;
+font-size: 16px;
+line-height: 25px;
+padding: 10px 0;
+text-decoration: none;
+text-shadow: none;
+border-radius: 3px;
+box-shadow: none;
+transition: 0.25s;
+display: block;
+width: 250px;
+margin-top: 30px;
+}
+.control-group {
+margin-bottom: 10px;
+}
+.app-title {
+text-align: center;
+color: #777;
+}
+h1{
+   color: rebeccapurple;
+}
+.login-form {
+text-align: center;
+}
+
+input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+.input1 {
+    float: left;
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 200px;
+transition: border .5s;
+}
