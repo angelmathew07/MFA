@@ -18,7 +18,7 @@ random_number=randint(10000,100000000)
 challenge_int= time_factor_int+random_number
 # convert challenge to type bytes
 challenge_bytes=str(challenge_int).encode()
-#instance of PBKDF2HMAC instance
+#instance of PBKDF2HMAC
 backend = default_backend()
 # salt is randomly generated
 salt = os.urandom(16)
